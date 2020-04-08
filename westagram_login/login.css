@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color : #fafafa;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#thebox{
+    position: absolute;
+    top: 2em;
+    margin: auto ;
+    width: 350px;
+}
+
+div.login-box{
+    text-align: center;
+    border: solid 1px rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    background-color: #ffffff;
+    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
+}
+
+.logo-img{
+    max-width: 350px;
+}
+
+.inslogoimg{
+    box-sizing: border-box;
+    width: 175px;
+    height: 51px;
+    text-align: center;
+    margin: 22px 86.5px 36px 86.5px;
+}
+
+.accountinfo{
+}
+
+.enterbox{
+    width: 350px;
+}
+
+.inputbox{
+    border: 1px solid rgba(var(--d0b,219,219,219),1);
+    border-radius: 3px;
+    margin: 0 40px 6px 40px;
+    box-sizing: border-box;
+    width: 258px;
+    height: 36px;
+    padding: 0 0 0 10px;
+    background: #fafafa;;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color: rgba(var(--i1d,38,38,38),1);
+}
+
+.login-button{
+    width: 258px;
+    height: 30px;
+    border-radius: 4px;
+    padding: 5px 9px;
+    margin: 8px 40px;
+    background-color: #0095f6;
+    opacity: 0.4;
+    color: #fff;
+    font-size: 13px;
+}
+
+.textinthebox{
+    margin: 0 14px 0 14px;
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.middle{
+    margin: 10px 0 18px 0;
+}
+
+.line{
+    border-top: 1px solid #dbdbdb;
+    display: inline-block;
+    padding: 5px 50px;
+    position: relative;
+    top: 5px;
+}
+
+.fbbutton{  
+   border: 0 none;
+   cursor: pointer;
+   background-color: #ffffff;
+}
+
+.fbimg{
+    width: 16px;
+    margin-right: 8px;
+    position: relative;
+    top: 3px;
+}
+
+.fb{
+    color: #385185;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
+
+.bottombutton{
+    margin: 8px 40px;
+}
+
+.findpw{   
+    margin: 12px 0 10px 0;
+    color: #00376b;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.signup{
+    color: #0095f6;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.signupbox{
+    padding: 8px 0 8px 0;
+    border: solid 1px rgba(var(--b6a,219,219,219),1);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.question p{
+    color:#262626;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.question span{
+    font-weight: 350;
+}
+
+.boxbottom{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.download-button{
+    display: flex;
+    justify-content: center;
+}
+
+.download-button button{
+    border: 0 none;
+    cursor: pointer;
+}
+
+.download-img{
+    width: 140px;
+}
