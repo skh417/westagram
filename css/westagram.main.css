@@ -302,8 +302,6 @@ main{
     border: 1px solid rgb(219, 219, 219);
     border-radius: 3px;
     height: 223px;
-    overflow: auto;
-    z-index: -1;
 }
 
 .right-middle-head {
@@ -311,7 +309,6 @@ main{
     justify-content: space-between;
     margin-top: 10px;
     padding: 4px 16px;
-
 }
 
 .r-m-h-story {
@@ -326,6 +323,8 @@ main{
 
 .right-middle-body {
     margin:8px 0 0 0;
+    height: 80%;
+    overflow: auto;
 }
 
 .story {
