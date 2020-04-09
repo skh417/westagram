@@ -96,14 +96,14 @@ main{
     margin-top: 54px;
 }
 
-.main-section{
+.center {
     margin: 30px 245px 0 245px;
     display: inline-block;
     width: 935px;
     position: relative;
 }
 
-.feed{
+.center-feed{
     background-color: #ffffff;
     border: 1px solid rgb(219, 219, 219);
     border-radius: 3px;
@@ -113,37 +113,42 @@ main{
     width: 100%;
 }
 
-.feedtop{
+.center-feed-top{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     padding: 12px 14px 12px 15px;
     position: relative;
 }
 
-.feedtopprofile img{
+.center-feed-top-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-feed-top-profile img {
     width: 32px;
     border-radius: 50px;
 }
-.feedtopname{
+.c-feed-top-name {
     margin-left: 16px;
     font-size: 14px;
     font-weight: 600;
 }
 
-.feedtopname a{
+.c-feed-top-name a{
     text-decoration: none;
     color: black;
 }
 
-.feedicons img{
+.c-feed-top-img img{
     width: 24px;
-    position: absolute;
-    right: 12px;
+   
     bottom: 16px;
 }
 
-.feed-img img{
+.center-feed-img img{
     width: 100%;
 }
 
@@ -208,29 +213,33 @@ main{
     color: rgb(27, 27, 27);
 }
 
-.commentcolumn{
+.commentcolumn {
     display: flex;
     flex-direction: column;
     margin-left: 5px;
 }
 
-.input-reply div{
+.comment-container div {
     margin: 4px 0 0 0;
     padding: 15px 16px;
     border-top: 1px solid rgb(219, 219, 219);
 }
 
-#reply-form{
+.comment-form {
     display: flex;
     justify-content: space-between;
 }
 
-.hereiscomment{
+.comment-inputbox:focus {
+    outline: none;
+}
+
+.hereiscomment {
     display: flex;
     flex-direction: row;
 }
 
-.replybox{
+.comment-inputbox {
     width: 93%;
     height: 18px;
     border: 0;
@@ -246,7 +255,7 @@ main{
     opacity: 0.4;
 }
 
-#rightfix{
+.side-main{
     position: absolute;
     right: 292px;
 }
@@ -293,6 +302,45 @@ main{
     border: 1px solid rgb(219, 219, 219);
     border-radius: 3px;
     height: 223px;
+    overflow: auto;
+    z-index: -1;
+}
+
+.right-middle-head {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 4px 16px;
+
+}
+
+.r-m-h-story {
+    font-size: 14px;
+    font-weight: 600;
+    color: #8e8e8e;
+}
+
+.r-m-h-viewall {
+    font-size: 12px;
+}
+
+.right-middle-body {
+    margin:8px 0 0 0;
+}
+
+.story {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 20px;
+}
+
+.story img {
+    width: 40px;
+}
+
+.story div {
+    margin-left: 8px;
+    font-weight: 600;
 }
 
 .right-bottom{

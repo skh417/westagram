@@ -1,4 +1,4 @@
-const comment = document.getElementById('reple')
+const comment = document.getElementsByClassName('comment-inputbox')[0];
 const replyInputBt = document.getElementsByClassName('input-reply-button')[0];
 
 
