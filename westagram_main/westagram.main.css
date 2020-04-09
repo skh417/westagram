@@ -23,13 +23,10 @@ nav{
     justify-content: center;
 }
 
-.navigator{
+.navmaincontainer{
     width: 975px;
-    height: 54px;
     padding: 0 10px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .navi-bar{
@@ -66,7 +63,7 @@ nav{
     width: 106.5px;
 }
 
-.searching-bar{
+.searchbar{
     background-color: #fafafa;
     border-radius: 3px;
     border: 1px solid rgba(var(--b6a,219,219,219),1);
@@ -100,8 +97,7 @@ main{
 }
 
 .main-section{
-    margin: 0 245px;
-    padding-top: 30px;
+    margin: 30px 245px 0 245px;
     display: inline-block;
     width: 935px;
     position: relative;
@@ -260,7 +256,6 @@ main{
 }
 
 .right-top{
-    max-width: 293px;
     width: 293px;
     display: flex;
     align-items: center;

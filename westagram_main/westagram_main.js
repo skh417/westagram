@@ -7,7 +7,7 @@ comment.addEventListener('keyup', changeBtColor);
 function changeBtColor(){
     if(comment.value.length >= 1){
         replyInputBt.style.opacity = '1'
-        replyInputBt.disabled = false;
+        replyInputBt.disabled = false;logo-img-container
         replyInputBt.style.cursor = 'pointer';
     } else if(comment.value.length<1) {
         replyInputBt.style.opacity = '0.4';
