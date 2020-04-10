@@ -9,7 +9,7 @@ function changeBtColor(){
         replyInputBt.style.opacity = '1'
         replyInputBt.disabled = false;logo-img-container
         replyInputBt.style.cursor = 'pointer';
-    } else if(comment.value.length<0) {
+    } else if(comment.value.length<1) {
         replyInputBt.style.opacity = '0.4';
         replyInputBt.disabled = true;
         replyInputBt.style.cursor = 'default';
