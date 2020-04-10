@@ -104,7 +104,7 @@ nav{
     border: 1px solid rgb(219, 219, 219);
     border-radius: 3px;
     margin-right: 28px;
-    max-width: 616px;
+    width: 616px;
 }
 
 .center-feed-top{
@@ -138,7 +138,6 @@ nav{
 
 .c-feed-top-img img{
     width: 24px;
-   
     bottom: 16px;
 }
 
@@ -253,13 +252,7 @@ nav{
     outline: none;
 }
 
-.side-main{
-    position: absolute;
-    right: 292px;
-}
-
 .right-section {
-    position: fixed;
     right: 230px;
 }
 

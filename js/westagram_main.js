@@ -7,9 +7,9 @@ comment.addEventListener('keyup', changeBtColor);
 function changeBtColor(){
     if(comment.value.length >= 1){
         replyInputBt.style.opacity = '1'
-        replyInputBt.disabled = false;logo-img-container
+        replyInputBt.disabled = false;
         replyInputBt.style.cursor = 'pointer';
-    } else if(comment.value.length<1) {
+    } else if(comment.value === "") {
         replyInputBt.style.opacity = '0.4';
         replyInputBt.disabled = true;
         replyInputBt.style.cursor = 'default';
@@ -18,11 +18,17 @@ function changeBtColor(){
 
 
 const replyButton = document.getElementsByClassName('input-reply-button')[0]; // 댓글 입력 이벤트 발생이 함수가 적용될 위치
-replyButton.addEventListener('click', commentUpload); //'게시' 버튼의 클릭 이벤트 트리거
 
-//밑에는 댓글창에 엔터를 쳤을때 댓글이 입력될 수 있게 하는 기능
-comment.addEventListener('keydown', function(x){
-    if(comment.value.length >=1 && x.keyCode === 13){
+//'게시' 버튼의 클릭 이벤트 트리거
+replyButton.addEventListener('click', function(){
+    if(comment.value.length>=1){
+        commentUpload();
+    }
+}); 
+
+//'게시' 엔터키 이벤트 트리거
+comment.addEventListener('keydown', function(e){
+    if(comment.value.length >=1 && e.keyCode === 13){
         commentUpload();
     }
 })
